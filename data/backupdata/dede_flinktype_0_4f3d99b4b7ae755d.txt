@@ -1,0 +1,1 @@
+INSERT INTO `dede_flinktype` VALUES('10','全部友情链接');

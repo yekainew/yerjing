@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.form_left {
+	float:left;
+	width:520px;
+	margin-left:10px;
+}
+.form_right {
+	float:right;
+	width:405px;
+	margin-right:10px;
+}
+.tips {
+	margin-bottom:10px;
+}
+.clear {
+	clear:both;
+	line-height:0;
+	line-height:0;
+	overflow:hidden;
+}
+img {
+	border:0px;
+	padding:0px;
+	margin:0px;
+	vertical-align:middle;
+}
+a {
+	text-decoration:none;
+	outline:none;
+}
+a:link {
+	text-decoration:none;
+	color:#636363;
+}
+a:visited {
+	text-decoration:none;
+	color:#636363;
+}
+a:hover {
+	text-decoration:none;
+	color:#636363;
+}
+a:active {
+star:expression(this.onFocus=this.blur());
+}
+a img {
+	border:none;
+}
+tr {
+	height:30px;
+	line-height:30px;
+	font-size:12px;
+	color:#000000;
+}
+.m_order {
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	margin:0px auto;
+}
+.order_table {
+	border-top:1px solid #e5e5e5;
+	border-right:1px solid #e5e5e5;
+	line-height:22px
+}
+
+.order_table .fields {
+	width:85px;
+	text-align:right; color:#555;
+}
+.order_table td {
+	border:1px solid #dadada;
+	border-top:none;
+	border-right:none;
+	padding:3px 0;
+}
+.order_table td.ddright{padding-left:10px;}
+.txt {
+	border:1px solid #999999;
+	background:#f7f7ed;
+	margin-left:10px;
+	height:22px;
+	line-height:22px;
+	width: 220px;
+	color: #000000;
+}
+.l_25 {
+	width:25px;
+}
+.textarea {
+	width:300px;
+	height:100px;
+	border:1px solid #999999;
+	background:#f7f7ed;
+	margin-left:10px;
+}
+.red {
+	color:#ff6633;
+}
+.btn {
+	width:144px;
+	height:26px;
+	background:url(http://pay.shop369.net/order/images/wys.gif) no-repeat;
+	border:0px;
+	color:#000;
+}

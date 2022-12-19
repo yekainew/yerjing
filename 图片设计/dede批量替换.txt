@@ -1,0 +1,9 @@
+update dede_arctype set tempindex=replace(tempindex,'qiyoushengwu','{style}');
+update dede_arctype set templist=replace(templist,'qiyoushengwu','{style}');
+update dede_arctype set temparticle=replace(temparticle,'qiyoushengwu','{style}');
+update dede_arctype set namerule=replace(namerule,'qiyoushengwu','{style}');
+update dede_arctype set namerule2=replace(namerule2,'qiyoushengwu','{style}');
+
+
+武汉华纳联合药业有限公司 
+http://www.1688.com/company/huana123456789.html

@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field.keywords/}" />
+<meta name="description" content="{dede:field.description function='html2text(@me)'/}" />
+    <link href="{dede:global.cfg_templets_skin/}/css/css.css" rel="stylesheet" type="text/css" />
+    <script src="{dede:global.cfg_templets_skin/}/js/MSClass.js" type="text/javascript"></script>
+    <!--[if IE 6]>
+	<script type="text/javascript" src="js/DD_belatedPNG.js"></script>
+	
+	<script type="text/javascript">
+	 DD_belatedPNG.fix('.navigation .alt a, .navigation a:hover');
+	</script>
+<![endif]-->
+
+
+</head>
+<body>
+    {dede:include filename="head.htm"/}
+    <div class="main">
+        <div class="mainIn">
+            <div class="left sidebar">
+                <em class="title">
+                    <img src="{dede:global.cfg_templets_skin/}/images/abouttitleImg.jpg" alt="关于伊尔净" /></em>
+                <ul class="sidebarList">
+                    {dede:channel type='son' currentstyle="<li class='alt'><a href='~typelink~'>~typename~</a></li>"}
+      <li><a href='[field:typeurl/]'>[field:typename/]</a></li>
+      {/dede:channel}
+                </ul>
+                <div class="blank6">
+                </div>
+              {dede:include filename="left.htm"/}
+            </div>
+            <div class="left contentRight">
+                <div class="title">
+                    <b>
+                        <h2>
+                            {dede:type}[field:typename /]{/dede:type}</h2>
+                        | {dede:field name='typenameng'/}</b><em>{dede:field name='position'/}</em>
+                </div>
+                <div class="blank30">
+                </div>
+                <!---->
+                <div class="title02">
+                    <h1>
+                        {dede:field.title/}</h1>
+                   <p>{dede:field.pubdate function="MyDate('Y-m-d H:i',@me)"/}  来源：{dede:field.source/}  编辑：{dede:field.writer/}  点击：<script src="{dede:field name='phpurl'/}/count.php?view=yes&aid={dede:field name='id'/}&mid={dede:field name='mid'/}" type='text/javascript' language="javascript"></script>次</p>
+                </div>
+                <div class="NewsContent">
+                   <div id="contentMidPicAD" style="float:right; clear:both; top:0; vertical-align:top;">{dede:myad name='contentMidPicAD'/}</div>
+      {dede:field.body/}
+      {dede:field.vote/}
+      (责任编辑：{dede:adminname/})
+                </div>
+                <div class="blank20">
+                </div>
+                <div class="title01">
+                    <b>相关文章</b></div>
+                <div class="blank15">
+                </div>
+                <ul class="newsContentList">
+
+                {dede:likearticle col='1' row='5' titlelen='80' eregtype=all|tag|keyword} 
+
+<li><a href="[field:arcurl/]">[field:title/]</a><span>[field:pubdate function="GetDateMK(@me)"/]</span></li> 
+
+{/dede:likearticle} 
+
+
+                    
+                </ul>
+                <div class="blank30">
+                </div>
+                <div class="printIcon right">
+                    <a href="#" title="返回顶部">返回顶部</a><a href="#" title="返回上一页">返回上一页</a><a href="#" title="打印本页">打印本页</a></div>
+                <div class="blank20">
+                </div>
+                <!---->
+            </div>
+            <div class="blank15">
+            </div>
+        </div>
+        <div>
+            <img src="{dede:global.cfg_templets_skin/}/images/mainImg.jpg" /></div>
+    </div>
+    <!---->
+    <div class="blank15">
+    </div>
+    {dede:include filename="footer.htm"/}
+</body>
+</html>

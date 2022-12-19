@@ -1,0 +1,1132 @@
+
+@charset "utf-8";
+body {
+    background: none repeat scroll 0 0 #fff;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    text-align: left;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p {
+    margin: 0;
+    padding: 0;
+}
+table, td, tr, th {
+    font-size: 12px;
+}
+li {
+    list-style-type: none;
+}
+table {
+    margin: 0 auto;
+}
+img {
+    border: 0 none;
+    line-height: 0;
+}
+ol, ul {
+    list-style: outside none none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 12px;
+    font-weight: normal;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+}
+a:active {
+}
+a.blue:link {
+    color: #0066cc;
+    text-decoration: none;
+}
+a.blue:visited {
+    color: #0066cc;
+    text-decoration: none;
+}
+a.blue:hover {
+    color: #900;
+    text-decoration: underline;
+}
+a.blue:active {
+    color: #0066cc;
+}
+.f12px {
+    font-size: 12px;
+}
+.f14px {
+    font-size: 14px;
+}
+.f18px {
+    font-size: 18px;
+}
+.f24px {
+    font-size: 24px;
+}
+.yahei {
+    font-family: "微软雅黑";
+}
+.lineHeight24 {
+    line-height: 24px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: left;
+}
+.hidden {
+    display: none;
+}
+.unLine, .unLine a {
+    text-decoration: none;
+}
+.noBorder {
+    border: medium none;
+}
+.red {
+    color: #990000;
+}
+.blue {
+    color: #0066cc;
+}
+.cGray {
+    color: #999;
+}
+.clear {
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+.more {
+    background: url("../images/Partnersdtabg1.jpg") no-repeat scroll left center rgba(0, 0, 0, 0);
+    display: block;
+    font-family: "微软雅黑";
+    height: 28px;
+    text-align: center;
+    width: 58px;
+}
+address, caption, cite, code, dfn, em, th, var, i, b {
+    font-style: normal;
+    font-weight: normal;
+}
+.blankw {
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+.blank3 {
+    clear: both;
+    display: block;
+    height: 3px;
+    overflow: hidden;
+}
+.blank6 {
+    clear: both;
+    display: block;
+    height: 6px;
+    overflow: hidden;
+}
+.blank9 {
+    clear: both;
+    display: block;
+    height: 9px;
+    overflow: hidden;
+}
+.blank12 {
+    clear: both;
+    display: block;
+    height: 12px;
+    overflow: hidden;
+}
+.blank15 {
+    clear: both;
+    display: block;
+    height: 15px;
+    overflow: hidden;
+}
+.blank20 {
+    clear: both;
+    display: block;
+    height: 20px;
+    overflow: hidden;
+}
+.blank30 {
+    clear: both;
+    display: block;
+    height: 30px;
+    overflow: hidden;
+}
+body {
+    background: url("../images/topbg.jpg") no-repeat scroll center top #ecffe0;
+    height: 725px;
+}
+#head {
+    height: 576px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 960px;
+}
+.navigation {
+    float: right;
+    overflow: hidden;
+    width: 749px;
+}
+.navigation li {
+    float: left;
+    font-size: 18px;
+    text-align: center;
+}
+.navigation li a {
+    color: #fff;
+    display: block;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    height: 120px;
+    overflow: hidden;
+    padding-top: 45px;
+    width: 107px;
+}
+.navigation li a span {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+}
+.navigation li a:hover, .navigation li.alt a {
+    background: url("../images/navbg.png") no-repeat scroll -5px top rgba(0, 0, 0, 0);
+    color: #f1861c;
+    text-decoration: none;
+}
+.navnow {
+    background: url("../images/navbg.png") no-repeat scroll -5px top rgba(0, 0, 0, 0);
+    color: #f1861c;
+    text-decoration: none;
+}
+#head .logo {
+    float: left;
+}
+.banner8{ width:950px; height:420px; margin:auto; margin-top:150px;}
+.banner8 a{ display:block; width:950px; height:420px;}
+
+
+
+
+.CompanyProfile {
+    background: url("../images/CompanyProfilebg02.JPG") no-repeat scroll center top rgba(0, 0, 0, 0);
+    height: 370px;
+    overflow: hidden;
+    padding-top: 10px;
+}
+.CompanyProfile dl {
+    background: url("../images/CompanyProfilebg.gif") repeat-y scroll left top #fff;
+    height: 360px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 25px;
+    width: 910px;
+}
+.CompanyProfile dl dt {
+    background: url("../images/CompanyProfilebg01.jpg") no-repeat scroll 17px -4px #fff;
+    float: left;
+    overflow: hidden;
+    padding-top: 40px;
+    text-align: center;
+    width: 279px;
+}
+.CompanyProfile dl dt img {
+    background: url("../images/CompanyProfilebg.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+    height: 262px;
+    width: 279px;
+}
+.CompanyProfile dl dt a {
+    color: #333;
+    font-size: 14px;
+}
+.CompanyProfile dl dt a:hover {
+    color: #f1861c;
+}
+.CompanyProfile dl dd {
+    float: right;
+    font-size: 14px;
+    line-height: 180%;
+    padding-top: 20px;
+    width: 590px;
+}
+.CompanyProfile dl dd p {
+    color: #333;
+    margin-bottom: 20px;
+    text-indent: 2em;
+}
+.ProductsShow {
+    background: url("../images/CompanyProfilebg.gif") repeat-y scroll left top #fff;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 960px;
+}
+#JINGDONGTAB .mt {
+    background: url("../images/productshowbg.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+    height: 54px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 960px;
+}
+#JINGDONGTAB H2 {
+    background: url("images/bg_tit_home.gif") no-repeat scroll 0 -100px rgba(0, 0, 0, 0);
+    color: #fff;
+    float: left;
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    margin-top: 0;
+    padding: 50px 10px 0 50px;
+    width: 121px;
+}
+#JINGDONGTAB .tab {
+    margin-top: 0;
+    position: absolute;
+    right: 5px;
+    top: 20px;
+    width: 75px;
+}
+#JINGDONGTAB .tab LI {
+    background: url("../images/tabbg.jpg") no-repeat scroll right top rgba(0, 0, 0, 0);
+    color: #fff;
+    cursor: default;
+    float: left;
+    font-family: arial;
+    height: 20px;
+    line-height: 18px;
+    list-style: outside none none;
+    margin-right: 4px;
+    text-align: center;
+    width: 19px;
+}
+#JINGDONGTAB .tab LI.active {
+    background: url("../images/tabbg.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+    color: #fff;
+    float: left;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+#JINGDONGTAB .mt .extra {
+    float: right;
+    height: 28px;
+    width: 20px;
+}
+#JINGDONGTABBOX {
+    background-color: #ffffff;
+    clear: both;
+    height: 355px;
+    margin: 0 auto;
+    padding-top: 25px;
+    width: 905px;
+}
+#JINGDONGTABBOX DL {
+    display: inline;
+    float: left;
+    height: 170px;
+    list-style: outside none none;
+    padding: 0 4px;
+    text-align: center;
+    width: 173px;
+}
+#JINGDONGTABBOX DT {
+    border: 1px solid #ccc;
+    height: 140px;
+    overflow: hidden;
+    position: relative;
+    width: 171px;
+}
+#JINGDONGTABBOX DD {
+    font-size: 14px;
+    height: 22px;
+    margin: 8px 0 0;
+    overflow: hidden;
+    padding: 0;
+    width: 171px;
+}
+#JINGDONGTABBOX DD a {
+    color: #333;
+}
+#JINGDONGTABBOX DD a:hover {
+    color: #0066ff;
+}
+#JINGDONGTABBOX .p-price {
+    background: none repeat scroll 0 0 #f33;
+    bottom: 10px;
+    color: #fff;
+    display: block;
+    font-family: arial;
+    font-weight: bold;
+    height: 14px;
+    line-height: 14px;
+    padding: 2px 5px;
+    position: absolute;
+    right: 20px;
+    z-index: 100;
+}
+.rollBox {
+    background: url("../images/companyHonorbg.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+    height: 260px;
+    margin: 0 auto;
+    width: 960px;
+}
+.rollBox .item {
+    overflow: hidden;
+    width: 895px;
+}
+.rollBox .item a {
+    display: block;
+    float: left;
+    margin: 0 3px;
+    overflow: hidden;
+    width: 173px;
+}
+.rollBox .item a img {
+    border: 1px solid #ccc;
+    height: 128px;
+    padding: 3px;
+    width: 165px;
+}
+.rollBox .item a b {
+    color: #ccc;
+    display: block;
+    font-size: 14px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+}
+.rollBox .item a:hover b {
+    color: #f1861c;
+}
+.rollBox .button {
+    cursor: pointer;
+    height: 33px;
+    margin-top: -105px;
+    position: relative;
+    width: 15px;
+    z-index: 888;
+}
+#MarqueeDiv3 {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 895px;
+}
+.rollBox .title {
+    height: 73px;
+    overflow: hidden;
+}
+.rollBox .title h2 {
+    display: block;
+    padding-top: 90px;
+}
+#LeftButton3 {
+    margin-left: -21px;
+}
+#RightButton3 {
+    margin-right: 8px;
+}
+.ContactUsbox {
+    background: url("../images/CompanyProfilebg.gif") repeat-y scroll left top #fff;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 960px;
+}
+.ContactUsbox .title {
+    background: url("../images/contactUsbg.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+    height: 63px;
+    overflow: hidden;
+}
+.ContactUsbox .title h2 {
+    display: block;
+    padding-top: 150px;
+}
+.ContactUsbox dl {
+    height: 307px;
+    overflow: hidden;
+    padding: 10px 35px;
+}
+.ContactUsbox dl dt {
+    background: url("../images/ContactUsboxb.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+    color: #333;
+    float: left;
+    font-size: 14px;
+    height: 310px;
+    line-height: 180%;
+    padding-left: 33px;
+    width: 354px;
+}
+.ContactUsbox dl dd {
+    float: right;
+    overflow: hidden;
+    width: 474px;
+}
+#foot {
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 960px;
+}
+#foot ul {
+    padding: 0 2px;
+}
+#foot ul li.left {
+    color: #666;
+    line-height: 200%;
+    overflow: hidden;
+    width: 700px;
+}
+#foot ul li.left span {
+    font-family: Arial,Helvetica,sans-serif;
+}
+#foot ul li.right {
+    background: url("../images/zsseocom.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+    height: 21px;
+    line-height: 10000%;
+    margin-top: 7px;
+    overflow: hidden;
+    width: 109px;
+}
+#foot ul li.right a {
+    display: block;
+}
+.main {
+    background: url("../images/mainbg.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 33px;
+    width: 968px;
+}
+.mainIn {
+    background: url("../images/mainboxbg.jpg") repeat-y scroll 6px 0 rgba(0, 0, 0, 0);
+}
+.sidebar {
+    background: url("../images/mainbg.jpg") no-repeat scroll 0 -33px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    padding: 30px 0 0 17px;
+    width: 214px;
+}
+.sidebar .title {
+    display: block;
+    height: 31px;
+    overflow: hidden;
+    padding-top: 11px;
+}
+.sidebarList li {
+    margin-bottom: 1px;
+}
+.sidebarList li a {
+    background: url("../images/sidebarbg.jpg") no-repeat scroll 1px -30px rgba(0, 0, 0, 0);
+    color: #333;
+    display: block;
+    font-size: 14px;
+    height: 21px;
+    overflow: hidden;
+    padding-left: 34px;
+    padding-top: 8px;
+}
+.sidebarList li a:hover, .sidebarList li.alt a {
+    background: url("../images/sidebarbg.jpg") no-repeat scroll left 0 rgba(0, 0, 0, 0);
+    color: #42ab00;
+    font-weight: bold;
+    position: relative;
+    text-decoration: none;
+}
+.Searchbox {
+    background: url("../images/sreachbg.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+    height: 25px;
+    margin: 20px 5px;
+    overflow: hidden;
+    width: 179px;
+}
+.Searchbox input {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    height: 22px;
+    line-height: 24px;
+    overflow: hidden;
+    padding-left: 5px;
+    padding-right: 5px;
+    vertical-align: top;
+    width: 142px;
+}
+.Searchbox .btn {
+    cursor: pointer;
+    height: 24px;
+    width: 27px;
+}
+.contentRight {
+    background: url("../images/mainbg.jpg") no-repeat scroll -231px -33px rgba(0, 0, 0, 0);
+    margin-right: 20px;
+    overflow: hidden;
+    padding: 0 5px;
+    width: 689px;
+}
+.contentRight .title {
+    height: 34px;
+    overflow: hidden;
+    padding-left: 2px;
+}
+.contentRight .title h2 {
+    color: #333333;
+    display: inline;
+    font-family: YaHei;
+    font-size: 24px;
+    font-weight: bold;
+}
+.contentRight .title b {
+    color: #a1a1a1;
+    display: block;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.contentRight .title em {
+    color: #999;
+    display: block;
+    float: right;
+
+    padding-top: 14px;
+}
+.contentRight .title em a {
+    color: #999;
+    margin: 0 7px;
+}
+.contentRight .title em a:hover {
+    color: #42ab00;
+}
+.Contentbox {
+    color: #333;
+    font-size: 14px;
+    line-height: 180%;
+    text-indent: 2em;
+}
+.Contentbox p {
+    line-height: 180%;
+    margin-bottom: 20px;
+    text-indent: 2em;
+}
+.title01 {
+    background: url("../images/title01bg.jpg") no-repeat scroll 13px 12px #f5ffe6;
+    color: #42ab00;
+    font-size: 14px;
+    font-weight: bold;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 35px;
+}
+.contactList {
+}
+.contactList li {
+    background: url("../images/newsContentTitlebg.jpg") no-repeat scroll 15px -19px rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #ececee;
+    color: #333;
+    font-size: 14px;
+    height: 21px;
+    overflow: hidden;
+    padding-left: 34px;
+    padding-top: 8px;
+}
+.JoinOnline {
+}
+.JoinOnline td {
+    padding: 5px;
+}
+.feedbackSubmit, .feedbackReset {
+    background: url("../images/btnbg.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+    border: medium none;
+    cursor: pointer;
+    height: 23px;
+    padding: 0;
+    width: 70px;
+}
+.newsList {
+}
+.newsList li {
+    border-bottom: 1px dashed #e5e5e5;
+    height: 150px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.newsList li img.left {
+    background: url("../images/productimgBg.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+    height: 158px;
+    padding: 4px;
+    width: 158px;
+}
+.newsList li div.right {
+    overflow: hidden;
+    width: 100%;
+}
+.newsList li div.right em {
+    display: block;
+    height: 32px;
+    overflow: hidden;
+    padding-top: 8px;
+}
+.newsList li div.right em a {
+    color: #333333;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+.newsList li div.right em a:hover {
+    color: #42ab00;
+}
+.newsList li div.right em span {
+    color: #808080;
+    float: right;
+}
+.newsList li div.right p {
+    color: #808080;
+    height: 60px;
+    line-height: 180%;
+    overflow: hidden;
+}
+.anpager {
+    font-family: Arial,Helvetica,sans-serif;
+    height: 27px;
+    overflow: hidden;
+}
+.anpager .cpb {
+    background: url("../images/anpager1.jpg") no-repeat scroll left -33px rgba(0, 0, 0, 0);
+    color: #333333;
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 26px;
+    line-height: 25px;
+    text-align: center;
+    width: 27px;
+}
+.anpager a {
+    background: url("../images/anpager1.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+    color: #ba5114;
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 26px;
+    line-height: 25px;
+    overflow: hidden;
+    text-align: center;
+    width: 27px;
+}
+.anpager img {
+    float: left;
+    height: 26px;
+    width: 27px;
+}
+.anpager a:hover {
+    background: url("../images/anpager1.jpg") no-repeat scroll left -33px rgba(0, 0, 0, 0);
+    color: #333333;
+    text-decoration: none;
+}
+.NewsContent {
+    color: #333;
+    line-height: 180%;
+    padding: 15px 0;
+    text-indent: 2em;
+}
+.NewsContent p {
+    line-height: 180%;
+    margin-bottom: 20px;
+    text-indent: 2em;
+}
+.newsContentList {
+}
+.newsContentList li {
+    background: url("../images/newsContentListbg.jpg") no-repeat scroll 7px 5px rgba(0, 0, 0, 0);
+    height: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.newsContentList li a {
+    color: #333333;
+    float: left;
+}
+.newsContentList li a:hover {
+    color: #42ab00;
+}
+.newsContentList li span {
+    float: right;
+}
+.contentRight .title02 {
+    border-bottom: 1px dashed #e5e5e5;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.contentRight .title02 h1 {
+    color: #42ab00;
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.contentRight .title02 p {
+    color: #666666;
+}
+.printIcon {
+    background: url("../images/printIcon.jpg") no-repeat scroll left center rgba(0, 0, 0, 0);
+    height: 76px;
+    overflow: hidden;
+    width: 210px;
+}
+.printIcon a {
+    display: block;
+    float: left;
+    height: 76px;
+    margin-right: 20px;
+    overflow: hidden;
+    text-indent: -2000px;
+    width: 49px;
+}
+.productList {
+    margin-left: -8px;
+}
+.productList li img {
+    background: url("../images/productimgBg.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+    height: 158px;
+    padding: 4px;
+    width: 158px;
+}
+.productList li {
+    float: left;
+    height: 208px;
+    margin-left: 8px;
+    overflow: hidden;
+    width: 166px;
+}
+.productList li b {
+    display: block;
+    padding-top: 13px;
+}
+.productList li a {
+    display: block;
+    text-align: center;
+}
+.productList li b a {
+    color: #666;
+}
+.productList li b a:hover {
+    color: #0066ff;
+}
+.productContent {
+    font-size: 14px;
+    line-height: 180%;
+}
+.productContent p {
+    font-size: 14px;
+    line-height: 180%;
+    margin-bottom: 15px;
+    text-indent: 2em;
+}
+.ProductImg {
+    background: url("../images/productsContentImgbg.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+    height: 359px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 4px 0 0 4px;
+    width: 623px;
+}
+.productContent .title03 {
+    color: #333333;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.siteMap {
+}
+.siteMap em {
+    border-bottom: 1px solid #42ab00;
+    color: #42ab00;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.siteMap ul {
+    font-size: 14px;
+    padding: 20px 0;
+}
+.siteMap ul li {
+    background: url("../images/rightTitleBg.jpg") no-repeat scroll left 10px rgba(0, 0, 0, 0);
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.siteMap ul li p {
+    font-weight: normal;
+    padding-top: 16px;
+}
+.siteMap ul a {
+    color: #333;
+}
+.siteMap ul a:hover {
+    color: #42ab00;
+}
+.siteMap ul p a {
+    color: #333;
+}
+.siteMap ul p a:hover {
+    color: #42ab00;
+}
+.sreachEnd {
+    height: 25px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding: 0 10px;
+}
+.sreachEnd b {
+    color: #42ab00;
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.sreachEnd b a {
+    color: #333;
+}
+.sreachEnd b a:hover {
+    color: #0088e0;
+}
+.sreachEnd span {
+    display: block;
+    float: right;
+    margin-top: 3px;
+}
+.aboutList01 {
+    margin-left: -13px;
+}
+.aboutList01 li {
+    float: left;
+    height: 339px;
+    margin-left: 13px;
+    overflow: hidden;
+    text-align: center;
+    width: 220px;
+}
+.aboutList li a {
+    display: block;
+}
+.aboutList01 li a img {
+    background: url("../images/aboutShowbg01.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+    height: 288px;
+    padding: 4px;
+    width: 212px;
+}
+.aboutList01 li b {
+    display: block;
+    padding-top: 12px;
+}
+.aboutList01 li b a {
+    color: #666;
+    font-size: 14px;
+}
+.aboutList01 li b a:hover {
+    color: #b34100;
+}
+.dede_pages {
+}
+.dede_pages ul {
+    float: left;
+    padding: 12px 0 12px 16px;
+}
+.dede_pages ul li {
+    border: 1px solid #e9e9e9;
+    float: left;
+    font-family: Tahoma;
+    line-height: 17px;
+    margin-right: 6px;
+}
+.dede_pages ul li a {
+    color: #555;
+    display: block;
+    float: left;
+    padding: 2px 4px;
+}
+.dede_pages ul li a:hover {
+    color: #690;
+    padding: 2px 4px;
+    text-decoration: none;
+}
+.dede_pages ul li.thisclass, .dede_pages ul li.thisclass a, .pagebox ul li.thisclass a:hover {
+    background-color: #f8f8f8;
+    font-weight: bold;
+    padding: 2px 4px;
+}
+.dede_pages .pageinfo {
+    color: #999;
+    line-height: 21px;
+    padding: 12px 10px 12px 16px;
+}
+.dede_pages .pageinfo strong {
+    color: #555;
+    font-weight: normal;
+    margin: 0 2px;
+}
+
+/*友情链接*/
+.tbox {
+    background: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #dadada;
+    margin: 0 0 8px;
+    overflow: hidden;
+}
+.tbox dt {
+    border: 1px solid #dadada;
+    clear: both;
+    height: 24px;
+    overflow: hidden;
+}
+.tbox dd {
+    border-left: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+    overflow: hidden;
+}
+.tbox dt strong {
+    color: #316301;
+    display: block;
+    float: left;
+    height: 24px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding-left: 8px;
+    padding-right: 4px;
+}
+.tbox dt strong a {
+    color: #316301;
+}
+.tbox dt strong a:hover {
+    color: #596f37;
+    text-decoration: none;
+}
+.tbox dt span.more {
+    color: #596f37;
+    float: right;
+    line-height: 25px;
+    padding-right: 8px;
+    position: relative;
+}
+.tbox dt span.more a {
+    color: #596f37;
+    text-decoration: none;
+}
+.tbox dt span.more a:hover {
+    color: #ff3333;
+    text-decoration: underline;
+}
+.tbox dt span.label {
+    float: right;
+    height: 25px;
+    overflow: hidden;
+    padding-right: 1px;
+    padding-top: 2px;
+}
+.tbox dt span.label a {
+    border-left: 1px solid #dadada;
+    color: #666;
+    display: block;
+    float: left;
+    height: 26px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    overflow: hidden;
+    padding: 0 7px 0 8px;
+    text-decoration: none;
+}
+.tbox dt span.label a:hover {
+    color: #360;
+}
+.tbox dt span.label a.thisclass {
+    background: #fff none repeat scroll 0 0;
+    border-top: 3px solid #dadada;
+    color: #333;
+}
+.tbox dt span.linklabel {
+    float: left;
+    margin-left: 10px;
+    overflow: hidden;
+    padding-right: 1px;
+    padding-top: 2px;
+}
+.tbox dt span.linklabel a {
+    border-left: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+    border-top: 1px solid #dadada;
+    color: #666;
+    display: block;
+    float: left;
+    height: 20px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin: 0 5px;
+    overflow: hidden;
+    padding: 0 7px 0 8px;
+    text-decoration: none;
+}
+.tbox dt span.linklabel a:hover {
+    color: #360;
+}
+.tbox dt span.linklabel a.thisclass {
+    background: #fff none repeat scroll 0 0;
+    color: #333;
+}
+
+.f5 {
+    clear: both;
+    height: 40px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.f5 li {
+    float: left;
+    line-height: 14px;
+    padding: 8px 10px 0;
+    white-space: nowrap;
+}
+.f5 li a {
+    color: #666666;
+    float: left;
+}
+.f5 li a img {
+    border: 3px solid #eee;
+}
+
+.more {
+    background: rgba(0, 0, 0, 0);
+    display: block;
+    font-family: "微软雅黑";
+    height: 28px;
+    text-align: center;
+    width: 58px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

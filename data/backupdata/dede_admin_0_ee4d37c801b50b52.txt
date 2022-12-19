@@ -1,0 +1,1 @@
+INSERT INTO `dede_admin` VALUES('1','10','admin','f297a57a5a743894a0e4','system','伊尔净','yekainew@qq.com','','1526707930','223.73.181.206');

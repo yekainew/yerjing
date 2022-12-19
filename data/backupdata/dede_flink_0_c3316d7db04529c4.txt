@@ -1,0 +1,1 @@
+INSERT INTO `dede_flink` VALUES('20','1','http://www.yerjing.com/','私处护理凝胶','','','','1433950212','10','2');

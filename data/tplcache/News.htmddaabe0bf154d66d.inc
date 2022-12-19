@@ -1,0 +1,41 @@
+<?php
+$z[0]=Array("global","",243,271);
+$z[0][4]['name']="cfg_soft_lang";
+$z[1]=Array("field","",284,303);
+$z[1][4]['name']="title";
+$z[2]=Array("global","",304,330);
+$z[2][4]['name']="cfg_webname";
+$z[3]=Array("field","",371,400);
+$z[3][4]['name']="keywords";
+$z[4]=Array("field","",440,498);
+$z[4][4]['name']="description";
+$z[4][4]['function']="html2text(@me)";
+$z[5]=Array("global","",520,552);
+$z[5][4]['name']="cfg_templets_skin";
+$z[6]=Array("global","",620,652);
+$z[6][4]['name']="cfg_templets_skin";
+$z[7]=Array("include","",942,977);
+$z[7][4]['filename']="head.htm";
+$z[8]=Array("global","",1139,1171);
+$z[8][4]['name']="cfg_templets_skin";
+$z[9]=Array("channel","\r\n      <li><a href='[field:typeurl/]'>[field:typename/]</a></li>\r\n      ",1283,1468);
+$z[9][4]['type']="son";
+$z[9][4]['currentstyle']="<li class='alt'><a href='~typelink~'>~typename~</a></li>";
+$z[10]=Array("global","",1621,1653);
+$z[10][4]['name']="cfg_templets_skin";
+$z[11]=Array("type","[field:typename /]",2177,2218);
+$z[12]=Array("field","",2251,2282);
+$z[12][4]['name']="typenameng";
+$z[13]=Array("field","",2290,2319);
+$z[13][4]['name']="position";
+$z[14]=Array("list","\r\n                    <li>\r\n                        <div class=\"right\">\r\n                            <em><a href=\"[field:arcurl/]\" class=\"title\">[field:title/]</a><span>[field:pubdate function=\"GetDateMK(@me)\"/]</span></em>\r\n                            <p>\r\n                                [field:description/]...</p>\r\n                            <a href=\"[field:arcurl/]\" target=\"_blank\">\r\n                                <img src=\"[field:global.cfg_templets_skin/]/images/btnImg.jpg\" /></a>\r\n                        </div>\r\n                    </li>\r\n                    ",2499,3109);
+$z[14][4]['pagesize']="10";
+$z[15]=Array("pagelist","",3298,3370);
+$z[15][4]['listitem']="info,index,end,pre,next,pageno";
+$z[15][4]['listsize']="10";
+$z[16]=Array("global","",3541,3573);
+$z[16][4]['name']="cfg_templets_skin";
+$z[17]=Array("include","",3672,3709);
+$z[17][4]['filename']="footer.htm";
+
+?>
